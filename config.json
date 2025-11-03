@@ -1,0 +1,9 @@
+{
+  "urls": [
+    "https://x.com",
+    "https://facebook.com",
+    "https://github.com",
+    "https://voltrack-nu.vercel.app/"
+  ],
+  "interval_seconds": 60
+}
