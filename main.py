@@ -41,7 +41,8 @@ def job():
 def send_discord_alert(url, info):
     webhook_url = CONFIG["alert"]["webhook_url"]
     message = {
-        "content": f"⚠️ {url} appears **DOWN**.\nDetails: {info}"
+        "content": f"⚠️ {url} appears **DOWN** at {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}.\nDetails: {info}"
+
     }
     try:
         requests.post(webhook_url, json=message)
