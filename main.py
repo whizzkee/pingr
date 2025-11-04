@@ -27,4 +27,19 @@ def check_url(url):
         return (url, response.status_code, round(duration, 2))
     except Exception as e:
         return (url, None, str(e))
-    
+
+def job():
+    for url in URLS:
+        url, status, info = check_url(url)
+        if status == 200:
+            log(f"{url} is UP - {info}s")
+        else:
+            log(f"{url} is DOWN - {info}")
+
+schedule.every(INTERVAL).seconds.do(job)
+
+log(f"Monitoring {len(URLS)} URLS every {INTERVAL} seconds...")
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
