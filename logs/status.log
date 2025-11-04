@@ -63,3 +63,60 @@
 2025-11-04 07:52:40 | https://github.com is UP - 0.59s
 2025-11-04 07:52:40 | https://voltrack-nu.vercel.app/ is UP - 0.44s
 2025-11-04 07:52:40 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001984B877D10>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:19:02 | Monitoring 5 URLS every 60 seconds...
+2025-11-04 16:20:03 | https://x.com is UP - 0.52s
+2025-11-04 16:20:04 | https://facebook.com is UP - 1.07s
+2025-11-04 16:20:04 | https://github.com is UP - 0.6s
+2025-11-04 16:20:05 | https://voltrack-nu.vercel.app/ is UP - 0.58s
+2025-11-04 16:20:05 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AC6E9C80E0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:21:06 | https://x.com is UP - 0.52s
+2025-11-04 16:21:07 | https://facebook.com is UP - 0.98s
+2025-11-04 16:21:08 | https://github.com is UP - 0.55s
+2025-11-04 16:21:08 | https://voltrack-nu.vercel.app/ is UP - 0.65s
+2025-11-04 16:21:08 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AC6E9C8A40>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:22:09 | https://x.com is UP - 0.55s
+2025-11-04 16:22:10 | https://facebook.com is UP - 1.01s
+2025-11-04 16:22:11 | https://github.com is UP - 0.54s
+2025-11-04 16:22:11 | https://voltrack-nu.vercel.app/ is UP - 0.48s
+2025-11-04 16:22:11 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AC6E9CB110>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:23:13 | https://x.com is UP - 0.5s
+2025-11-04 16:23:14 | https://facebook.com is UP - 0.99s
+2025-11-04 16:23:14 | https://github.com is UP - 0.55s
+2025-11-04 16:23:15 | https://voltrack-nu.vercel.app/ is UP - 0.46s
+2025-11-04 16:23:15 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AC6E9CBB90>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:24:16 | https://x.com is UP - 0.51s
+2025-11-04 16:24:17 | https://facebook.com is UP - 1.03s
+2025-11-04 16:24:17 | https://github.com is UP - 0.57s
+2025-11-04 16:24:18 | https://voltrack-nu.vercel.app/ is UP - 0.47s
+2025-11-04 16:24:18 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AC6E9C8CB0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:46:49 | Monitoring 5 URLS every 60 seconds...
+2025-11-04 16:47:49 | https://x.com is UP - 0.51s
+2025-11-04 16:47:50 | https://facebook.com is UP - 1.34s
+2025-11-04 16:47:51 | https://github.com is UP - 0.55s
+2025-11-04 16:47:52 | https://voltrack-nu.vercel.app/ is UP - 0.5s
+2025-11-04 16:47:52 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000293B79E0C50>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:48:53 | https://x.com is UP - 0.55s
+2025-11-04 16:48:54 | https://facebook.com is UP - 1.0s
+2025-11-04 16:48:54 | https://github.com is UP - 0.57s
+2025-11-04 16:48:55 | https://voltrack-nu.vercel.app/ is UP - 0.42s
+2025-11-04 16:48:55 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000293B79E0E90>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:53:21 | Monitoring 5 URLS every 60 seconds...
+2025-11-04 16:54:22 | https://x.com is UP - 0.55s
+2025-11-04 16:54:23 | https://facebook.com is UP - 1.06s
+2025-11-04 16:54:24 | https://github.com is UP - 0.56s
+2025-11-04 16:54:24 | https://voltrack-nu.vercel.app/ is UP - 0.41s
+2025-11-04 16:54:24 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F83C5F01A0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 16:59:03 | Monitoring 5 URLS every 60 seconds...
+2025-11-04 17:00:04 | https://x.com is UP - 0.52s
+2025-11-04 17:00:05 | https://facebook.com is UP - 1.03s
+2025-11-04 17:00:06 | https://github.com is UP - 0.54s
+2025-11-04 17:00:06 | https://voltrack-nu.vercel.app/ is UP - 0.46s
+2025-11-04 17:00:06 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016DE89ED9A0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 17:00:07 | Discord alert sent for https://fakeurl404test.com
+2025-11-04 17:00:31 | Monitoring 5 URLS every 60 seconds...
+2025-11-04 17:01:32 | https://x.com is UP - 0.53s
+2025-11-04 17:01:33 | https://facebook.com is UP - 1.01s
+2025-11-04 17:01:34 | https://github.com is UP - 0.57s
+2025-11-04 17:01:34 | https://voltrack-nu.vercel.app/ is UP - 0.47s
+2025-11-04 17:01:34 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002409F37CB30>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-04 17:01:35 | Discord alert sent for https://fakeurl404test.com
