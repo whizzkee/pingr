@@ -35,6 +35,18 @@ def job():
             log(f"{url} is UP - {info}s")
         else:
             log(f"{url} is DOWN - {info}")
+            if CONFIG["alert"]["method"] == "discord":
+                send_discord_alert(url, info)
+            
+def send_discord_alert(url, info):
+    webhook_url = CONFIG["alert"]["webhook_url"]
+    message = {
+        "content": f"⚠️ {url} appears **DOWN**.\nDetails: {info}"
+    }
+    try:
+        requests.post(webhook_url, json=message)
+    except Exception as e:
+        log(f"Failed to send Discord alert: {e}")
 
 schedule.every(INTERVAL).seconds.do(job)
 

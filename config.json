@@ -3,7 +3,14 @@
     "https://x.com",
     "https://facebook.com",
     "https://github.com",
-    "https://voltrack-nu.vercel.app/"
+    "https://voltrack-nu.vercel.app/",
+    "https://fakeurl404test.com"
   ],
-  "interval_seconds": 60
+
+  "interval_seconds": 60,
+
+  "alert": {
+    "method": "discord",
+    "webhook_url": "https://discord.com/api/webhooks/1435251041632256112/CiZes_Msb4zP1Cc3g1eibgJSfJUrgV5vwV1T_bK7SFNdMBnsz0ooDN0Hry4sbE_yv6zZ"
+  }
 }
