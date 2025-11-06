@@ -14,6 +14,8 @@ INTERVAL = CONFIG["interval_seconds"]
 os.makedirs("logs", exist_ok=True)
 LOG_FILE = "logs/status.log"
 
+STATUS_CACHE = {}
+
 def log(message: str, color=Fore.WHITE):
     """Write messages to both console and log file with color support."""
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -34,24 +36,30 @@ def check_url(url):
 def job():
     for url in URLS:
         url, status, info = check_url(url)
+        previous_status = STATUS_CACHE.get(url)
+        
         if status == 200:
             log(f"{url} is UP - {info}s", Fore.GREEN)
         else:
             log(f"{url} is DOWN - {info}", Fore.RED)
-            if CONFIG["alert"]["method"] == "discord":
-                send_discord_alert(url, info)
             
-def send_discord_alert(url, info):
+        #Only send alert if status has changed
+        if previous_status != status:
+            STATUS_CACHE[url] = status
+            if CONFIG["alert"]["method"] == "discord":
+                send_discord_alert(url, status, info)
+            
+def send_discord_alert(url, status, info):
     webhook_url = CONFIG["alert"]["webhook_url"]
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
+    
+    if status == 200:
+        message_text = f"✅ **Site is back UP**\n** {url}\n**Time:** {timestamp}\n**Response Time:** `{info}s`"
+    else:
+        message_text = f"⚠️ **Site is DOWN**\n**URL:** {url}\n**Time:** {timestamp}\n**Details:** `{info}`"
+        
     message = {
-        "content": (
-            f"⚠️ **Site is DOWN**\n"
-            f"**URL:** {url}\n"
-            f"**Time:** {timestamp}\n"
-            f"**Details:** `{info}`"
-        )
+        "content": message_text
     }
 
     try:

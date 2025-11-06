@@ -120,3 +120,35 @@
 2025-11-04 17:01:34 | https://voltrack-nu.vercel.app/ is UP - 0.47s
 2025-11-04 17:01:34 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002409F37CB30>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
 2025-11-04 17:01:35 | Discord alert sent for https://fakeurl404test.com
+2025-11-06 08:33:32 | Monitoring 6 URLS every 60 seconds...
+2025-11-06 08:34:32 | https://x.com is UP - 0.5s
+2025-11-06 08:34:33 | Discord alert sent for https://x.com
+2025-11-06 08:34:34 | https://facebook.com is UP - 1.15s
+2025-11-06 08:34:35 | Discord alert sent for https://facebook.com
+2025-11-06 08:34:35 | https://github.com is UP - 0.54s
+2025-11-06 08:34:36 | Discord alert sent for https://github.com
+2025-11-06 08:34:36 | https://voltrack-nu.vercel.app/ is UP - 0.45s
+2025-11-06 08:34:37 | Discord alert sent for https://voltrack-nu.vercel.app/
+2025-11-06 08:34:37 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C0E47D1640>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-06 08:34:37 | http://localhost:8000 is UP - 0.02s
+2025-11-06 08:34:38 | Discord alert sent for http://localhost:8000
+2025-11-06 08:35:38 | https://x.com is UP - 0.54s
+2025-11-06 08:35:39 | https://facebook.com is UP - 0.92s
+2025-11-06 08:35:40 | https://github.com is UP - 0.57s
+2025-11-06 08:35:40 | https://voltrack-nu.vercel.app/ is UP - 0.41s
+2025-11-06 08:35:40 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C0E47D26C0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-06 08:35:44 | http://localhost:8000 is DOWN - HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C0E47D36B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-11-06 08:35:46 | Discord alert sent for http://localhost:8000
+2025-11-06 08:36:47 | https://x.com is UP - 0.5s
+2025-11-06 08:36:48 | https://facebook.com is UP - 0.91s
+2025-11-06 08:36:48 | https://github.com is UP - 0.58s
+2025-11-06 08:36:49 | https://voltrack-nu.vercel.app/ is UP - 0.53s
+2025-11-06 08:36:49 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C0E47D1F40>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-06 08:36:49 | http://localhost:8000 is UP - 0.02s
+2025-11-06 08:36:50 | Discord alert sent for http://localhost:8000
+2025-11-06 08:37:50 | https://x.com is UP - 0.48s
+2025-11-06 08:37:51 | https://facebook.com is UP - 0.93s
+2025-11-06 08:37:52 | https://github.com is UP - 0.54s
+2025-11-06 08:37:52 | https://voltrack-nu.vercel.app/ is UP - 0.41s
+2025-11-06 08:37:52 | https://fakeurl404test.com is DOWN - HTTPSConnectionPool(host='fakeurl404test.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C0E47D12B0>: Failed to resolve 'fakeurl404test.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-06 08:37:52 | http://localhost:8000 is UP - 0.02s
