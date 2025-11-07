@@ -54,20 +54,35 @@ def send_discord_alert(url, status, info):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     if status == 200:
-        message_text = f"✅ **Site is back UP**\n** {url}\n**Time:** {timestamp}\n**Response Time:** `{info}s`"
+        title = "✅ Site is BACK UP"
+        color = 0x00FF00
+        description = f"The site is back up"
     else:
-        message_text = f"⚠️ **Site is DOWN**\n**URL:** {url}\n**Time:** {timestamp}\n**Details:** `{info}`"
-        
-    message = {
-        "content": message_text
+        title = "⚠️ Site is DOWN"
+        color = 0xFF0000
+        description = f"The site failed to respond or returned an error"
+    
+    embed = {
+        "title": title,
+        "color": color, 
+        "fields": [
+            {"name": "URL", "value": url, "inline": False},
+            {"name": "Time", "value": timestamp, "inline": False},
+            {"name": "Details", "value": str(info), "inline": False},
+        ],
+        "footer": {"text": "Pingr Status Monitor"},
     }
-
+    
+    payload = {"embeds": [embed]}
+    
     try:
-        requests.post(webhook_url, json=message)
-        log(f"Discord alert sent for {url}", Fore.YELLOW)
+        response = requests.post(webhook_url, json=payload)
+        if response.status_code == 204:
+            log(f"Discord embed alert sent for {url}", Fore.YELLOW)
+        else:
+            log(f"Discord alert failed with status code {response.status_code}", Fore.RED)
     except Exception as e:
-        log(f"Failed to send Discord alert: {e}", Fore.RED)
-
+        log(f"Failed to send Discord embed alert: {e}", Fore.RED)
 
 schedule.every(INTERVAL).seconds.do(job)
 
